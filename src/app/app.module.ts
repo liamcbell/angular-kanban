@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { TodoPageComponent } from './components/todo-page/todo-page.component';
 import { AddItemComponent } from './components/add-item/add-item.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { AddItemComponent } from './components/add-item/add-item.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    BrowserAnimationsModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
