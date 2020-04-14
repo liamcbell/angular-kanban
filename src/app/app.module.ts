@@ -13,6 +13,9 @@ import { TodoPageComponent } from './components/todo-page/todo-page.component';
 import { AddItemComponent } from './components/add-item/add-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { ProjectMenuComponent } from './components/project-menu/project-menu.component';
+import { UserSearchComponent } from './components/user-search/user-search.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     LoginPageComponent,
     RegistrationComponent,
     TodoPageComponent,
-    AddItemComponent
+    AddItemComponent,
+    ProjectMenuComponent,
+    UserSearchComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
