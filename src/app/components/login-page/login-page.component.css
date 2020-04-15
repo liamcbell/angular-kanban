@@ -1,0 +1,53 @@
+
+
+.loginComp {
+    text-align:center;
+}
+
+.loginCard {
+    height: 400px;
+    width: 500px;
+    background-color: #be90d4;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+form {
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 0px 0px 0px #f1e7fe;
+
+}
+
+.textInput {
+    background-color: #f1e7fe;
+    height: 40px;
+    box-shadow: inset 0px 0px 0px 0px #f1e7fe;
+}
+
+p {
+    display: inline;
+    margin-left: 3px; 
+    margin-right: 3px;
+}
+
+.btn {
+    background-color: #947cb0;
+    border-radius: 3px;
+    display: inline;
+}
+
+.btn:hover {
+    background-color: #674172;
+}

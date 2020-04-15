@@ -1,0 +1,18 @@
+.todo-page-comp {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+app-todos {
+    display: inline-block;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+/* app-project-menu {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: #aa8fc9;
+} */

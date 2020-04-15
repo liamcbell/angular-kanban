@@ -1,0 +1,21 @@
+<div class="loginComp">
+    <app-header></app-header>
+
+
+    <div class="loginCard">
+        <h4>A less featureful version of Trello</h4>
+        <form class="form">
+            <label for="Username">Username</label>
+            <input type="text" name="username" id="username" [(ngModel)]="username" placeholder="     Username"
+                class="textInput">
+            <label for="Password">Password</label>
+            <input type="text" name="password" id="password" [(ngModel)]="password" placeholder="     Password"
+                class="textInput">
+            <input type="button" value="Submit" class="btn" (click)="navigate(username, password)" class="btn">
+            <p>/</p>
+            <button (click)="navigateReg()" class="btn">Register</button>
+
+        </form>
+    </div>
+
+</div>

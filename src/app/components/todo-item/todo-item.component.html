@@ -1,0 +1,7 @@
+<div [ngClass]="setClasses()" class="itemCard" cdkDrag>
+    <p class="itemComp">
+        {{todo.item}}
+        <button (click)="onDelete(todo)" class="del">x</button>
+    </p>
+
+</div>

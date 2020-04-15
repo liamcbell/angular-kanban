@@ -1,0 +1,19 @@
+#projectMenu {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: #aa8fc9;
+}
+
+p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#projectAdd {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border-width: 2px;
+}

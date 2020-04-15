@@ -1,0 +1,69 @@
+.card-holder {
+    display: inline-flex;
+    margin-top: 0;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+}
+.card {
+    display: inline-block;
+    background-color: #ececec;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 10px 20px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #947cb0;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #674172;
+}
+form {
+    display: inline-block;
+    background-color: #d2d7d3;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.itemList {
+    height: 100%;
+    width: 100%;
+    min-height: 60px;
+}
+
+
+form label {
+    display: block;
+    padding-bottom: 20px;
+
+}
+
+form input {
+    display: block;
+    height: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+app-todo-item {
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 93%;
+    text-align: left;
+
+}
+
+#myform {
+    height: inherit;
+    display: inline-block;
+    margin-top: 100px;
+}
+

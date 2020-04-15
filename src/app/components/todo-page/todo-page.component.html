@@ -1,0 +1,9 @@
+<div class="todo-page-comp">
+    <app-header></app-header>
+    <app-project-menu></app-project-menu>
+    <app-todos [username]="username" [cardType]="backlog"></app-todos>
+    <app-todos [username]="username" [cardType]="inProgress"></app-todos>
+    <app-todos [username]="username" [cardType]="inReview"></app-todos>
+    <app-todos [username]="username" [cardType]="completed"></app-todos>
+
+</div>
