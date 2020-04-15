@@ -23,7 +23,7 @@ export class TodoService {
   createTodo(item: Item) {
     console.log("Create Todo Service Called");
     item.completed = false;
-    return this.http.post<string>(`${this.itemsUrl}/create`, item, httpOptions);
+    return this.http.post<boolean>(`${this.itemsUrl}/create`, item, httpOptions);
 
   }
 

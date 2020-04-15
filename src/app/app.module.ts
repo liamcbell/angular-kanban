@@ -17,6 +17,7 @@ import { ProjectMenuComponent } from './components/project-menu/project-menu.com
 import { UserSearchComponent } from './components/user-search/user-search.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,8 +37,6 @@ import { ProjectsComponent } from './components/projects/projects.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    BrowserAnimationsModule,
-    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
